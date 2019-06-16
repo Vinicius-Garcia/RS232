@@ -1,0 +1,17 @@
+C:\cs2017\RS232\RS232\bin\Debug\RS232.exe
+C:\cs2017\RS232\RS232\bin\Debug\RS232.pdb
+C:\cs2017\RS232\RS232\obj\Debug\RS232.Properties.Resources.resources
+C:\cs2017\RS232\RS232\obj\Debug\RS232.csproj.GenerateResource.cache
+C:\cs2017\RS232\RS232\obj\Debug\RS232.csproj.CoreCompileInputs.cache
+C:\cs2017\RS232\RS232\obj\Debug\RS232.exe
+C:\cs2017\RS232\RS232\obj\Debug\RS232.pdb
+C:\cs2017\RS232\RS232\obj\Debug\RS232.Form1.resources
+C:\project_C#\RS232\RS232\bin\Debug\RS232.exe
+C:\project_C#\RS232\RS232\bin\Debug\RS232.pdb
+C:\project_C#\RS232\RS232\obj\Debug\RS232.csprojAssemblyReference.cache
+C:\project_C#\RS232\RS232\obj\Debug\RS232.Form1.resources
+C:\project_C#\RS232\RS232\obj\Debug\RS232.Properties.Resources.resources
+C:\project_C#\RS232\RS232\obj\Debug\RS232.csproj.GenerateResource.cache
+C:\project_C#\RS232\RS232\obj\Debug\RS232.csproj.CoreCompileInputs.cache
+C:\project_C#\RS232\RS232\obj\Debug\RS232.exe
+C:\project_C#\RS232\RS232\obj\Debug\RS232.pdb
