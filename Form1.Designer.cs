@@ -44,39 +44,44 @@
             // 
             // TxtCom
             // 
-            this.TxtCom.Location = new System.Drawing.Point(11, 12);
+            this.TxtCom.Location = new System.Drawing.Point(12, 16);
+            this.TxtCom.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtCom.Name = "TxtCom";
-            this.TxtCom.Size = new System.Drawing.Size(50, 22);
+            this.TxtCom.Size = new System.Drawing.Size(58, 22);
             this.TxtCom.TabIndex = 0;
             // 
             // TxtBaud
             // 
-            this.TxtBaud.Location = new System.Drawing.Point(79, 12);
+            this.TxtBaud.Location = new System.Drawing.Point(92, 16);
+            this.TxtBaud.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtBaud.Name = "TxtBaud";
-            this.TxtBaud.Size = new System.Drawing.Size(50, 22);
+            this.TxtBaud.Size = new System.Drawing.Size(58, 22);
             this.TxtBaud.TabIndex = 1;
             // 
             // ComboBoxParity
             // 
             this.ComboBoxParity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBoxParity.FormattingEnabled = true;
-            this.ComboBoxParity.Location = new System.Drawing.Point(147, 13);
+            this.ComboBoxParity.Location = new System.Drawing.Point(171, 17);
+            this.ComboBoxParity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ComboBoxParity.Name = "ComboBoxParity";
-            this.ComboBoxParity.Size = new System.Drawing.Size(60, 20);
+            this.ComboBoxParity.Size = new System.Drawing.Size(69, 24);
             this.ComboBoxParity.TabIndex = 2;
             // 
             // TxtDataBit
             // 
-            this.TxtDataBit.Location = new System.Drawing.Point(225, 12);
+            this.TxtDataBit.Location = new System.Drawing.Point(263, 16);
+            this.TxtDataBit.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtDataBit.Name = "TxtDataBit";
-            this.TxtDataBit.Size = new System.Drawing.Size(20, 22);
+            this.TxtDataBit.Size = new System.Drawing.Size(23, 22);
             this.TxtDataBit.TabIndex = 3;
             // 
             // BtnDefault
             // 
-            this.BtnDefault.Location = new System.Drawing.Point(263, 12);
+            this.BtnDefault.Location = new System.Drawing.Point(306, 16);
+            this.BtnDefault.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnDefault.Name = "BtnDefault";
-            this.BtnDefault.Size = new System.Drawing.Size(50, 23);
+            this.BtnDefault.Size = new System.Drawing.Size(58, 31);
             this.BtnDefault.TabIndex = 4;
             this.BtnDefault.Text = "Default";
             this.BtnDefault.UseVisualStyleBackColor = true;
@@ -84,9 +89,10 @@
             // 
             // BtnConnect
             // 
-            this.BtnConnect.Location = new System.Drawing.Point(336, 12);
+            this.BtnConnect.Location = new System.Drawing.Point(392, 16);
+            this.BtnConnect.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnConnect.Name = "BtnConnect";
-            this.BtnConnect.Size = new System.Drawing.Size(75, 23);
+            this.BtnConnect.Size = new System.Drawing.Size(87, 31);
             this.BtnConnect.TabIndex = 5;
             this.BtnConnect.Text = "Connect";
             this.BtnConnect.UseVisualStyleBackColor = true;
@@ -94,9 +100,10 @@
             // 
             // BtnDisconnect
             // 
-            this.BtnDisconnect.Location = new System.Drawing.Point(537, 12);
+            this.BtnDisconnect.Location = new System.Drawing.Point(627, 16);
+            this.BtnDisconnect.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnDisconnect.Name = "BtnDisconnect";
-            this.BtnDisconnect.Size = new System.Drawing.Size(75, 23);
+            this.BtnDisconnect.Size = new System.Drawing.Size(87, 31);
             this.BtnDisconnect.TabIndex = 6;
             this.BtnDisconnect.Text = "Disconnect";
             this.BtnDisconnect.UseVisualStyleBackColor = true;
@@ -105,11 +112,12 @@
             // TxtLog
             // 
             this.TxtLog.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.TxtLog.Location = new System.Drawing.Point(11, 56);
+            this.TxtLog.Location = new System.Drawing.Point(12, 75);
+            this.TxtLog.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtLog.Multiline = true;
             this.TxtLog.Name = "TxtLog";
             this.TxtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtLog.Size = new System.Drawing.Size(601, 349);
+            this.TxtLog.Size = new System.Drawing.Size(701, 464);
             this.TxtLog.TabIndex = 7;
             // 
             // timer1
@@ -119,17 +127,20 @@
             // 
             // TxtWrite
             // 
-            this.TxtWrite.Location = new System.Drawing.Point(11, 411);
+            this.TxtWrite.Location = new System.Drawing.Point(12, 548);
+            this.TxtWrite.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtWrite.Multiline = true;
             this.TxtWrite.Name = "TxtWrite";
-            this.TxtWrite.Size = new System.Drawing.Size(520, 22);
+            this.TxtWrite.Size = new System.Drawing.Size(606, 29);
             this.TxtWrite.TabIndex = 8;
+            this.TxtWrite.TextChanged += new System.EventHandler(this.TxtWrite_TextChanged);
             // 
             // BtnWrite
             // 
-            this.BtnWrite.Location = new System.Drawing.Point(537, 411);
+            this.BtnWrite.Location = new System.Drawing.Point(627, 548);
+            this.BtnWrite.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.BtnWrite.Name = "BtnWrite";
-            this.BtnWrite.Size = new System.Drawing.Size(75, 23);
+            this.BtnWrite.Size = new System.Drawing.Size(87, 31);
             this.BtnWrite.TabIndex = 9;
             this.BtnWrite.Text = "Enter";
             this.BtnWrite.UseVisualStyleBackColor = true;
@@ -137,10 +148,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(624, 442);
+            this.ClientSize = new System.Drawing.Size(736, 581);
             this.Controls.Add(this.BtnWrite);
             this.Controls.Add(this.TxtWrite);
             this.Controls.Add(this.TxtLog);
@@ -151,8 +162,10 @@
             this.Controls.Add(this.ComboBoxParity);
             this.Controls.Add(this.TxtBaud);
             this.Controls.Add(this.TxtCom);
+            this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
-            this.Text = "RS232    v0.1";
+            this.Text = "Comunicação Serial";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

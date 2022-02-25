@@ -20,15 +20,13 @@ namespace RS232
         }
 
 
-        string TxtComDefault = "COM1";
-        string TxtBaudDefault = "9600";
-        string TxtDataBitDefault = "7";
+        string TxtComDefault = "COM4";
+        string TxtBaudDefault = "115200";
+        string TxtDataBitDefault = "8";
 
         string[] ParityChoose = new string[] { "None", "Odd", "Even" };
 
         COMPROT COMTMP = new COMPROT();
-
-
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -68,6 +66,7 @@ namespace RS232
 
         private void BtnWrite_Click(object sender, EventArgs e)
         {
+            
             COMTMP.Write(TxtWrite.Text);
         }
 
@@ -251,7 +250,7 @@ namespace RS232
             {
                 try
                 {
-                    Tmp.Write(str + "\n");
+                    Tmp.Write(str);
                     TmpLog += AddTime() + ">>>>> " + str + "\r\n";
                 }
                 catch
@@ -272,6 +271,9 @@ namespace RS232
 
         }
 
+        private void TxtWrite_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
